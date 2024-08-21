@@ -1,0 +1,69 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgba(119, 105, 41, 0.568) ;
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header img{
+    width: 280px;
+    height: 110px;
+}
+img{
+    width: 150px;
+}
+h1{
+    font-size: 30px;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+#nosotros { 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+    padding: 10px;
+    margin: 10px;
+   
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 15px 0px;
+    width: 100%;
+    background-color: rgb(96, 199, 76);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 50%;
+
+}
